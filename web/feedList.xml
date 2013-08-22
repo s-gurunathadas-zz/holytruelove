@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<feeds>
+	<feed>
+		 <menuLabel>Holy Bread</menuLabel>
+		<linkURL>http://feeds.feedburner.com/odb/feed?format=xml</linkURL>
+	</feed>
+	
+</feeds>

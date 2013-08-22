@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<navigation snapToCell="true" gridPosition="CC" cellPosition="CC" orientation="horizontal" paddingH="0" spacing="548">
+		<button out="assets/skins/skin2/left.png" over="assets/skins/skin2/leftOver.png" down="assets/skins/skin2/leftDown.png" action="prev" tooltip="" />
+		<button out="assets/skins/skin2/right.png" over="assets/skins/skin2/rightOver.png" down="assets/skins/skin2/rightDown.png" action="next" tooltip="" />		
+	</navigation>
+	<sharing snapToCell="true" gridPosition="CC" cellPosition="CC" orientation="horizontal" spacing="5" shareBtn="assets/skins/skin2/share.png" shareBtnPosition="BC" shareBackgroundColor="0x000000" shareBackgroundAlpha=".8">
+		<button out="assets/skins/sharingSkin/facebook.png" over="assets/skins/sharingSkin/facebook.png" action="facebook" tooltip="Post to Facebook" />
+		<button out="assets/skins/sharingSkin/delicious.png" over="assets/skins/sharingSkin/delicious.png" action="delicious" tooltip="Post to Delicious" />
+		<button out="assets/skins/sharingSkin/friendster.png" over="assets/skins/sharingSkin/friendster.png" action="friendster" tooltip="Post to Friendster" />
+		<button out="assets/skins/sharingSkin/blogger.png" over="assets/skins/sharingSkin/blogger.png" action="blogger" tooltip="Post to Blogger" />
+		<button out="assets/skins/sharingSkin/digg.png" over="assets/skins/sharingSkin/digg.png" action="digg" tooltip="Post to Digg" />
+		<button out="assets/skins/sharingSkin/reddit.png" over="assets/skins/sharingSkin/reddit.png" action="reddit" tooltip="Post to Reddit" />
+		<button out="assets/skins/sharingSkin/twitter.png" over="assets/skins/sharingSkin/twitter.png" action="twitter" tooltip="Post to Twitter" />
+		<button out="assets/skins/sharingSkin/stumbleupon.png" over="assets/skins/sharingSkin/stumbleupon.png" action="stumbleupon" tooltip="Post to StumbleUpon" />
+		<button out="assets/skins/sharingSkin/myspace.png" over="assets/skins/sharingSkin/myspace.png" action="myspace" tooltip="Post to MySpace" />
+	</sharing>
+	<scroll>
+		<upDown out="assets/skins/skin2/UP.png"/>
+		<dragBar out="assets/skins/skin2/dragbar.png"/>
+		<back value="assets/skins/skin2/back.png"/>
+	</scroll>
+
+</data>

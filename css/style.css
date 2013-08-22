@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: #ffffff;
+	font: 11px 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: left;
+}
+#wrap 
+{
+	position: absolute;
+	width: 716px;
+	margin-left: -358px;
+	left: 50%;
+	padding: 20px 0;
+}
+/*
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+ul li
+{
+	float: left;
+	display: inline;
+	margin:0;
+	padding:0;
+}
+*/
+pre
+{
+	margin:0;
+	padding:0;
+	font: 12px 'Trebuchet MS', Verdana, Arial;
+	color: #e098f1;
+}
+pre a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+pre a:hover
+{
+	text-decoration: underline;
+}
+#top
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+
+#top ul
+{
+	float: right;
+}
+#top ul li a
+{
+	display: block;
+	margin-left: 5px;
+	font: 11px 'Trebuchet MS', Verdana, Arial;
+	text-decoration: none;
+	color: #86aae0;
+}
+#top ul li a:hover, #top ul li .active
+{
+	color: #27426a;
+}
+#content
+{
+	float: left;
+	
+}
+#leftside
+{
+	float: left;
+	width: 330px;
+	color: #ffffff;
+	padding: 0; margin: 0;
+	background-color: #ffffff;
+	
+}
+#leftside_bottom
+{
+	margin-top: 5px;
+	float: left;
+	height: 275px;
+	width: 330px;
+	background: #ac8000 url(../img/leftside.gif) no-repeat;
+}
+#leftside_bottom p
+{
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 20px;
+	padding: 50px 50px 0 50px;
+}
+#image
+{
+	float: left;
+	width: 330px;
+	height: 220px;
+}
+#image img
+{
+	float: left;
+}
+#rightside
+{
+	float: left;
+	width: 386px;
+	height:500px; overflow:hidden;
+	background-color: #5581e7;
+	color: #1a2a50;
+}
+#rightside
+{
+	float: left;
+	margin-left: 6px;
+	width: 380px;
+	background: #5d276a url(../img/rightside.gif) no-repeat;
+	font: 12px 'Trebuchet MS', Verdana, Arial;
+	line-height: 18px;
+	color: #e098f1;
+}
+
+#left
+{
+	margin-top: 5px;
+	float: left;
+	width: 191px;
+	height: 275px;
+	background: #5a6845 url(../img/left.gif) no-repeat;
+}
+#left h1
+{
+	font: bold 24px 'Trebuchet MS', Verdana, Arial;
+	margin: 0;
+	padding: 15px 20px 10px 0;
+	float: right;
+	color: #ffffff;
+}
+#left p
+{
+	float: right;
+	display: inline;
+	text-align: right;
+	font: 11px 'Trebuchet MS', Verdana, Arial;
+	color: #ced2c8;
+	line-height: 16px;
+	margin: 0;
+	padding: 0 20px 10px 20px;
+}
+#right
+{
+	display: inline;
+	margin: 5px 0 0 0; padding: 0;
+	float: right;
+	width: 139px;
+	height: 275px;
+	background: #515d3e url(../img/right.gif) no-repeat;
+}
+#right ul
+{
+	float: right;
+	display: block;
+	line-height: 30px;
+	padding: 15px 20px 0 0;
+}
+#right ul li
+{
+	text-align: right;
+	float: right;
+	display: block;
+	width: 100px;
+}
+#right ul li a
+{
+	font: 14px 'Trebuchet MS', Verdana, Arial;
+	color: #ffffff;
+	text-decoration: none;
+}
+#right ul li a:hover
+{
+	text-decoration: underline;
+}
+#right ul li .active
+{
+	font-weight: bold;
+}
+
+#logo
+{
+	font: bold 24px 'Trebuchet MS', Verdana, Arial;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #86aae0;
+}
+
+#rightside h1
+{
+	font: bold 24px 'Trebuchet MS', Verdana, Arial;
+	margin: 0;
+	padding: 10px 0 0 10px;
+	color: #e098f1;
+}
+#rightside h2
+{
+	font: bold 14px 'Trebuchet MS', Verdana, Arial;
+	padding: 0px;
+	margin: 0 0 3px 35px;
+	color: #e098f1;
+}
+#rightside p
+{
+	width: 280px;
+	padding: 0;
+	margin: 0 0 15px 35px;
+	font: 12px 'Trebuchet MS', Verdana, Arial;
+	line-height: 18px;
+	color: #e098f1;
+}
+#contact
+{
+	float: left;
+	height: 38px;
+	border-top: 1px solid #e098f1;
+	width: 280px;
+	color: #e098f1;
+	padding: 10px 0 0 35px;
+}
+#menu
+{
+	float: left;
+	display: inline;
+	padding-top: 10px;
+	width: 716px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#menu ul
+{
+	margin: 0 auto; 
+	padding: 0;
+	height: 19px;
+	list-style-type: none;
+	width: 500px;
+}
+#menu ul li
+{
+	float: left;
+	display: inline;
+	padding: 0; margin:0;
+	background: url(../img/bg_menu.png) no-repeat left top;
+	white-space:nowrap;
+}
+#menu ul .first
+{
+	background: none;
+}
+#menu ul li a
+{
+	display: block;
+	font: bold 12px 'Trebuchet MS', Verdana, Arial;
+	color: #636363;
+	text-decoration: none;
+	height: 19px;
+	margin: 0 15px 0 15px;
+}
+#menu ul li a:hover, #menu ul li .activeA
+{
+	background: url(../img/bg_menu_hov.png) repeat-x;
+}
+
+#footer {
+    background: #df1306;
+    clear: both;
+    width: 100%;
+    padding-top: 15px;
+}
+#blank{
+    
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+}

@@ -1,0 +1,25 @@
+title {
+    font-family: Verdana;
+    font-size: 18px;
+	color: #59bef8;
+	font-weight:bold;
+	text-align:left;
+}
+
+description {
+    font-family: Verdana;
+    font-size: 14px;
+	text-align:left;
+	color:#666666;
+}
+date {
+	color: #999999;
+	font-size: 13px;
+	text-align:left;
+	font-style:italic;
+}
+
+.image
+{
+	margin-left:300px;
+}

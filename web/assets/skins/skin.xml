@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<navigation snapToCell="true" gridPosition="CR" cellPosition="CL" orientation="vertical" paddingH="165" spacing="0" paddingV="15">
+		<button out="assets/skins/skin1/prev.png" over="assets/skins/skin1/prevOver.png" down="assets/skins/skin1/prevDown.png" action="prev" tooltip="Previous" />
+		<button out="assets/skins/skin1/next.png" over="assets/skins/skin1/nextOver.png" down="assets/skins/skin1/nextDown.png" action="next" tooltip="Next" />		
+	</navigation>
+	<sharing snapToCell="true" gridPosition="CC" cellPosition="CC" orientation="horizontal" spacing="5" shareBtn="assets/skins/skin1/share.png" shareBtnPosition="BC" shareBackgroundColor="0xa1a1a1" shareBackgroundAlpha=".8">
+		<button out="assets/skins/sharingSkin/facebook.png" over="assets/skins/sharingSkin/facebook.png" action="facebook" tooltip="Post to Facebook" />
+		<button out="assets/skins/sharingSkin/delicious.png" over="assets/skins/sharingSkin/delicious.png" action="delicious" tooltip="Post to Delicious" />
+		<button out="assets/skins/sharingSkin/friendster.png" over="assets/skins/sharingSkin/friendster.png" action="friendster" tooltip="Post to Friendster" />
+		<button out="assets/skins/sharingSkin/blogger.png" over="assets/skins/sharingSkin/blogger.png" action="blogger" tooltip="Post to Blogger" />
+		<button out="assets/skins/sharingSkin/digg.png" over="assets/skins/sharingSkin/digg.png" action="digg" tooltip="Post to Digg" />
+		<button out="assets/skins/sharingSkin/reddit.png" over="assets/skins/sharingSkin/reddit.png" action="reddit" tooltip="Post to Reddit" />
+		<button out="assets/skins/sharingSkin/twitter.png" over="assets/skins/sharingSkin/twitter.png" action="twitter" tooltip="Post to Twitter" />
+		<button out="assets/skins/sharingSkin/stumbleupon.png" over="assets/skins/sharingSkin/stumbleupon.png" action="stumbleupon" tooltip="Post to StumbleUpon" />
+		<button out="assets/skins/sharingSkin/myspace.png" over="assets/skins/sharingSkin/myspace.png" action="myspace" tooltip="Post to MySpace" />
+	</sharing>
+	<scroll>
+		<upDown out="assets/skins/skin1/UP.png" />
+		<dragBar out="assets/skins/skin1/dragbar.png"/>
+		<back value="assets/skins/skin1/back.png"/>
+	</scroll>
+</data>

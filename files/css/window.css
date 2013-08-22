@@ -1,0 +1,143 @@
+/* CSS Document */
+
+<!--
+
+.style1 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	font-style: italic;
+
+}
+
+.style3 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; font-style: italic; color: #FFFFFF; }
+
+.style4 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color:#FF0000;
+
+	
+
+}
+
+.style5 {
+
+	color: #000000;
+
+	font-weight: bold;
+
+	font-style: italic;
+
+	font-size: medium;
+
+	font-size-adjust:inherit;
+
+}
+.cnnclass{
+
+width: 400px;
+
+padding: 5px;
+
+background-color: #F3F3F3;
+
+border: 1px solid black;
+
+margin-bottom: 1em;
+
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=80); /*Specify fade effect in IE. Remove if desired.*/
+
+-moz-opacity: 0.8; /*Specify fade effect in Firefox. Remove if desired.*/
+
+}
+
+
+
+.cnnclass a{
+
+text-decoration: none;
+
+}
+
+
+
+.bbcclass{
+
+width: 400px;
+
+padding: 6px;
+
+background-color: lightyellow;
+
+border: 1px solid #004A00;
+
+}
+
+
+
+.rsstitle{ /*shared class for all title elements in an RSS feed*/
+
+font-weight: bold;
+
+}
+
+
+
+.rssdate{ /*shared class for all date elements in an RSS feed*/
+
+color: gray;
+
+font-size: 85%;
+
+}
+
+
+
+.rssdescription{ /*shared class for all description elements in an RSS feed*/
+
+}
+
+
+
+
+
+
+#ajaxticker1{
+
+width: 200px;
+
+height: 100px;
+
+border: 1px ridge black;
+
+padding: 5px;
+
+background-color: #FEEEB8;
+
+}
+
+
+
+#ajaxticker1 div{ /*IE6 bug fix when text is bold and fade effect (alpha filter) is enabled. Style inner DIV with same color as outer DIV*/
+
+background-color: #FEEEB8;
+
+}
+
+
+
+.someclass{ //class to apply to your scroller(s) if desired
+
+}
+
+-->

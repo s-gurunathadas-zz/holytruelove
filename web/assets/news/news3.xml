@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<item>
+		<title>Lorem ipsum</title>
+		<link>http://www.flashxml.net</link>
+		<pubDate>Mon, 16 Apr 2010 18:37:00 GMT</pubDate>
+		<description><![CDATA[<br> <img src="assets/images/01.png" /> &nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et aliquam enim. Fusce molestie luctus velit, sed rhoncus nulla porttitor in. Nunc placerat nibh at leo fringilla vestibulum. Curabitur nibh enim, commodo quis commodo vel, tempor eget enim. Aliquam sit amet nibh vitae purus consequat varius. Vivamus a laoreet nisl. Phasellus condimentum gravida adipiscing. Nunc a turpis felis, in sollicitudin dui. Vivamus at tortor ut dolor porttitor fringilla sit amet a enim. Phasellus malesuada commodo metus mattis ullamcorper. Cras nec velit enim, non suscipit ligula. Vestibulum lacinia commodo nulla, eu consequat arcu dictum nec.<img src="assets/images/02.png" /> Aliquam semper, quam mattis dignissim lacinia, felis est imperdiet nisi, eu iaculis massa turpis ut risus. Cras ac est rutrum dolor convallis dignissim. Duis tincidunt tempus tempus. Integer aliquet nisi ante. Donec pellentesque urna tempus nunc lacinia id egestas lacus dictum.]]></description>
+	</item>
+	<item>
+		<title>Maecenas fringilla</title>
+		<link>http://www.flashxml.net</link>
+		<pubDate>Mon, 16 Apr 2010 18:37:00 GMT</pubDate>
+		<description><![CDATA[ <br> &nbsp; &nbsp;Maecenas fringilla rhoncus dolor, aliquam egestas lacus faucibus bibendum. Vivamus id erat dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <img src="assets/images/03.png" /> Nunc in nibh odio. Nulla vulputate nulla fermentum lorem semper in gravida ligula gravida. Fusce et lectus sed neque consequat condimentum. Pellentesque nulla elit, faucibus a cursus a, interdum non libero. In vulputate ultricies lacus, eget tincidunt diam blandit nec. Fusce blandit consectetur leo, at tempor sapien elementum eu. Maecenas egestas mattis commodo. Suspendisse quam tortor, sollicitudin quis vehicula non, posuere nec tellus. Vivamus risus felis, accumsan vitae bibendum eu, placerat et velit. Donec nisl nulla, vehicula sit amet laoreet eget, rhoncus vitae ligula. Vestibulum mattis accumsan fermentum. Nunc et velit mauris. Curabitur quam dui, varius vel blandit at, imperdiet quis velit. Pellentesque risus magna, aliquet et porta in, suscipit eu leo. ]]></description>
+	</item>
+	<item>
+		<title>Phasellus aliquet egestas ultricies.</title>
+		<link>http://www.flashxml.net</link>
+		<pubDate>Mon, 16 Apr 2010 18:37:00 GMT</pubDate>
+		<description><![CDATA[<br> &nbsp; &nbsp; <img src="assets/images/04.png" /> Proin id nulla faucibus libero eleifend consectetur. Duis ut tortor sit amet nulla eleifend dignissim. Sed nulla lacus, auctor vitae malesuada vel, vulputate at dui. Proin id quam eget massa ornare sollicitudin. Sed ut lorem urna, nec placerat sem. Vivamus in commodo erat. Sed non felis vitae diam fermentum faucibus. Ut commodo urna eget neque scelerisque id hendrerit lectus elementum. Integer rhoncus lacus quis urna egestas feugiat. Cras elementum, dui et egestas viverra, mauris elit cursus nisl, ut auctor mauris neque vel sem. Praesent egestas pulvinar lacus eget dictum. Nunc et velit mauris. Curabitur quam dui, varius vel blandit at, imperdiet quis velit. Pellentesque risus magna, aliquet et porta in, suscipit eu leo.]]></description>
+	</item>
+	<item>
+		<title>Donec ut turpis non sem blandit sagittis.</title>
+		<link>http://www.flashxml.net</link>
+		<pubDate>Mon, 16 Apr 2010 18:37:00 GMT</pubDate>
+		<description><![CDATA[<br> &nbsp; &nbsp; Curabitur ultrices adipiscing nibh, vel elementum dolor placerat semper  <img src="assets/images/05.png" />]]></description>
+	</item>
+</data>
