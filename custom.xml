@@ -1,0 +1,121 @@
+﻿<configuration>
+  <!-- Parameters : play_button : set the "play" at the beginning of the animation / permet d'afficher l'écran "Play" au début de l'animation | value : yes/no -->
+  <!-- Parameters : play_color : set color on the play button / permet de régler la couleur du bouton play | value : hexadecimal code -->
+  <!-- Parameters : graphic_color : set color progression bar for loading / permet de régler la couleur de la barre de progression | value : hexadecimal code -->
+  <!-- Parameters : text_color : set color text in progression bar for loading / permet de régler la couleur du texte dans la barre de progression | value : hexadecimal code -->
+  <!-- Parameters : loop : set the adjustment to replay the introduction in loop / permet de rejouer l'animation d'introduction en boucle à la fin de l'animation | value : yes/no -->
+  <display_preload loop="yes" play_button="no" play_color="345fba"  graphic_color="FF0000" text_color="FFFFFF">downloading</display_preload>
+  <!-- Change  display="no" if you don't want to have a "Skip Intro" Button -->
+  <!-- Parameters : display : set the adjustment for the "Skip Intro" button / permet d'afficher ou non le bouton skip intro | value : yes/no -->
+  <!-- Parameters : graphic_color : set color for the "Skip Intro" link / permet de régler la couleur du lien "Skip Intro" | value : hexadecimal code -->
+  <!-- Parameters : link : Link adress after clicking on the "Skip Intro" button / adresse du lien au clic sur le bouton "Skip Intro" | value : http adress -->
+  <skip_intro display="yes" graphic_color="ffffff"  link="web.php"     > Enter</skip_intro>
+  <!-- Change  play="no" if you don't want to play music in the animation  -->
+  <!-- Parameters : loop : set the adjustment to replay the loop of sound / permet de jouer la bande son en boucle | value : yes/no -->
+  <!-- Parameters : graphic_color : set color animation for sound button and text / permet de la couleur du bouton "son" et du texte | value : hexadecimal code -->
+  <!-- Parameters : music_control : set the adjustment to show or not the sound button / permet d'afficher ou non le bouton pour couper le son | value : yes/no -->
+  <!-- Parameters : play_music : play the music or not / permet de jouer ou non le son | value : hexadecimal code -->
+  <!-- Parameters : file : Link adress for the sound file / adresse du fichier son à charger | value : relative folder adress -->
+  <music_file loop="yes" graphic_color="ffffff" music_control="yes" play_music="yes" file="files/sound/music1.mp3">Sound</music_file>
+  <!-- animation  text -->
+  <!-- Parameters : typo1 & typo2 : Name of the typographie for each line of text / Nom de la typographie pour chaque ligne de texte 1 ou 2 | value : Arial / Times New Roman / "" -->
+  <!-- Parameters : texttransition : text apparition animation type / type d'apparition animée du texte | value type1 : transparency from 0 to 100% / type2 : blur filter with transparency / type3 : inverted blur / type4 : enlarge the text from 100% to 300% / type5 : reduce the text from 100% to 25%-->
+  <!-- Parameters : posx / posy : Position of the Text in px (x,y) from the top left corner at the beginning of the move / Position du texte en px (x,y) à partir du coin haut gauche au début de l'animation | value : number in px -->
+  <!-- Parameters : pos2x / pos2y : Position of the Text in px (x,y) from the top left corner at the end of the move / Position du texte en px (x,y) à partir du coin haut gauche à la fin de l'animation | value : number in px -->
+  <!-- Parameters : espacement : set the distance in pixel between the two line of text from the top of the first text / permet de régler la distance en pixels entre les deux lignes de texte (interlignage), à partir du haut du premier texte. | value : number in px -->
+  <!-- Parameters : center : set the text animation at the middle of the text or on top left corner / permet de déterminer si les animations de texte s'éxécute à partir du centre du texte ou partir de la gauche | value : yes/no -->
+  <!-- Parameters : duration : set the length of the animation move in milliseconds / permet de régler la durée du déplacement de l animation en millisecondes | value : number in ms -->
+  <!-- Parameters : wait : Pause at the end of animation in milliseconds / Pause en fin d'animation en millisecondes | value : number in ms -->
+  <!-- Parameters : stay : The last frame of animation remains visible if = 1 / La dernière image de l'animation reste visible si =1 | value : 1/0 -->
+  <!-- Parameters : color : set color for the animated text / permet de régler la couleur du texte animé | value : hexadecimal code -->
+  <!-- Parameters : font_size : Size of the Text in px / Taille du texte en pixel | value : number in px -->
+  <!-- Parameters : letter_spacing : Set the space between letters in px / Espacement entre les lettres (interlettrage) | value : number in px -->
+  <animations typo1="" typo2="">
+    
+    <animation texttransition="type2" duration="8000" wait="900" stay="1" posx="-100" posy="250" pos2x="600" pos2y="250" espacement="30" center="no">
+      <text color="FFFFFF" font_size="70" letter_spacing="7">
+        <![CDATA[LIFE]]>
+      </text>
+      <text color="FFFFFF" font_size="9" letter_spacing="-2">
+        <![CDATA[ ]]>
+      </text>
+    </animation>
+    
+     <animation texttransition="type1" duration="5000" wait="0000" stay="0" posx="270" posy="310" pos2x="270" pos2y="200" espacement="50" center="yes">
+      <text color="FFFFFF" font_size="40" letter_spacing="0">
+        <![CDATA[Not just any kind of life]]>
+      </text>
+      <text color="FFFFFF" font_size="22" letter_spacing="2.9">
+        <![CDATA[ ]]>
+      </text>
+   </animation>   
+   
+    <animation texttransition="type5" duration="7000" wait="1000" stay="0" posx="270" posy="310" pos2x="270" pos2y="200" espacement="50" center="yes">
+      <text color="FFFFFF" font_size="45" letter_spacing="2">
+      <![CDATA[This is eternal life]]>
+      </text>
+      <text color="FFFFFF" font_size="22" letter_spacing="2.9">
+        <![CDATA[ ]]>
+      </text>
+   </animation>
+        
+   <animation texttransition="type4" duration="4000" wait="1000" stay="0" posx="280" posy="235" pos2x="280" pos2y="270" espacement="15" center="yes">
+      <text color="FFFFFF" font_size="10" letter_spacing="3">
+        <![CDATA[Do You Want]]>
+      </text> 
+      <text color="FFFFFF" font_size="16" letter_spacing="7">
+        <![CDATA[Eternal LIFE]]>
+      </text>
+    </animation>
+
+   <animation texttransition="type3" duration="8000" wait="0000" stay="0" posx="50" posy="-200" pos2x="50" pos2y="270" espacement="40" center="no">
+      <text color="FFFFFF" font_size="35" letter_spacing="3">
+        <![CDATA[It is Easy to Understand]]>
+      </text>
+      <text color="FFFFFF" font_size="35" letter_spacing="3">
+        <![CDATA[simple to get]]>
+      </text>
+    </animation>    
+    
+    
+    <animation texttransition="type1" duration="10000" wait="0000"stay="0" posx="50" posy="-200" pos2x="50" pos2y="270" espacement="40" center="no">
+      <text color="FFFFFF" font_size="35" letter_spacing="3">
+        <![CDATA[you will find the PEACE ]]>
+      </text> 
+      <text color="FFFFFF" font_size="35" letter_spacing="3">
+        <![CDATA[never tasted before]]>
+      </text>
+    </animation>      
+                    
+                           
+    <animation texttransition="type2" duration="9000" wait="1" stay="" posx="-100" posy="250" pos2x="600" pos2y="250" espacement="30" center="no">
+      <text color="FFFFFF" font_size="45" letter_spacing="7">
+        <![CDATA[It is Free to ALL]]>
+      </text> 
+      <text color="FFFFFF" font_size="25" letter_spacing="7">
+        <![CDATA[ ]]>
+      </text> 
+    </animation>    
+ 
+ 
+    <animation texttransition="type3" duration="7000" wait="0000" stay="0" posx="150" posy="-200" pos2x="150" pos2y="270" espacement="40" center="no" >
+      <text color="FFFFFF" font_size="35" letter_spacing="3">
+        <![CDATA[Eternal LIFE]]>
+      </text> <text color="FFFFFF" font_size="25" letter_spacing="7">
+        <![CDATA[ ]]>
+      </text> 
+      </animation>
+    
+     <animation texttransition="type3" duration="3000" wait="0000" stay="0" posx="150" posy="-200" pos2x="150" pos2y="270" espacement="40" center="no" >
+      <text color="FFFFFF" font_size="25" letter_spacing="3">
+        <![CDATA[ Please Enter]]>
+      </text> <text color="FFFFFF" font_size="25" letter_spacing="7">
+        <![CDATA[ ]]>
+      </text> 
+      </animation>
+  
+                    
+  </animations>  
+
+  
+</configuration>
